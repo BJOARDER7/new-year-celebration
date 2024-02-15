@@ -1,0 +1,22 @@
+/* header section css */
+
+.header-celebration {
+  height: 600px;
+  background-image: url("../images/Banner-Image.png");
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+.header-text {
+  padding: 120px;
+}
+.header-text p,h2 {
+  text-align: center;
+  color: white; 
+}
+.header-text p {
+  font-size: 32px;
+  line-height: 0px;
+}
+.header-text h2 {
+  font-size: 72px;
+}
