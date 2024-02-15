@@ -20,3 +20,29 @@
 .header-text h2 {
   font-size: 72px;
 }
+
+/* main section 65% OFF */
+
+.section-65 {
+  margin-top: 200px;
+  text-align: center;
+}
+.text-65 {
+  color: #FF0000;
+  font-size: 88px;
+  line-height: 0px;
+  font-weight: bold;
+}
+.section-65 p {
+  color: #FF0000;
+  line-height: 0px;
+}
+.all-category {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 0px;
+}
+.category-img {
+  
+ text-align: center;
+} 
