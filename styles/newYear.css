@@ -4,6 +4,7 @@
   height: 600px;
   background-image: url("../images/Banner-Image.png");
   background-repeat: no-repeat;
+  border-radius: 10px;
   margin: 20px;
 }
 .header-text {
@@ -46,3 +47,21 @@
   
  text-align: center;
 } 
+
+.party-section {
+  height: 600px;
+  background-image: url("../images/Vectorrr.png"), url("../images/Group-70.png");
+  background-repeat: no-repeat;
+  margin: 20px;
+  border-radius: 10px;
+  /* background: linear-gradient(90deg, white 0%, orange 35%, yellow 100%); */
+}
+.party-text {
+  width: 40%;
+  padding-top: 120px;
+  padding-left: 80px;
+  color: white;
+}
+.party-text h3 {
+  font-size: 64px;
+}
