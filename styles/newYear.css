@@ -89,3 +89,30 @@
   margin: 8px 0;
   
 }
+.newsletter {
+  margin: 48px;
+  text-align: center;
+}
+.newsletter-header {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 0;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.btn-input {
+  padding: 10px 20px;
+  margin-right: 48px;
+  border: 0;
+}
+.btn-subscribe {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 0 20px 20px 0;
+  background-color: #FF0000;
+  color: white;
+}
