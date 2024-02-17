@@ -82,9 +82,9 @@
   width: 70%;
 }
 .upcoming {
-  margin: 20px 48px;
+  margin: 10px 48px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
 }
@@ -96,26 +96,28 @@
 }
 .upcoming-header2, .upcoming-2024 {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 0;
 }
 .upcoming-2024 {
   color: #FF0000;
 }
 .upcoming-img-div {
+  height: 250px;
+  width:auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  border: 5px solid red;
-  border-radius: 90%;
+  margin: 16px;
+  border: 8px solid red;
+  border-radius: 100%;
   
 }
 .upcoming-img {
-  height: 85%;
-  width: 85%;
-  border: 8px solid white;
-  
+  height: 90%;
+  width: 90%;
+  border: 0;
+  padding: 10px;
 }
 .gift-card {
   margin: 0 48px;
