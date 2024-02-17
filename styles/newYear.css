@@ -1,16 +1,20 @@
 /* header section css */
 
 .header-celebration {
-  height: 600px;
+  height: 420px;
   background-image: url("../images/Banner-Image.png");
   background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
-  margin: 50px;
+  margin: 0 48px;
+  opacity: 0.95;
 }
 .header-text {
-  padding: 120px;
+  padding: 48px;
+  
 }
 .header-text p,h2 {
+  padding-left: 80px;
   text-align: center;
   color: white; 
 }
@@ -25,7 +29,6 @@
 /* main section 65% OFF */
 
 .section-65 {
-  margin-top: 100px;
   text-align: center;
 }
 .text-65 {
@@ -49,24 +52,37 @@
 } 
 
 .party-section {
-  height: 600px;
-  background-image: url("../images/Vectorrr.png"), url("../images/Group-70.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  background-image: url("../images/Vectorrr.png");
   background-repeat: no-repeat;
-  margin: 50px;
+  background-size: cover;
+  margin: 48px;
   border-radius: 10px;
   /* background: linear-gradient(90deg, white 0%, orange 35%, yellow 100%); */
 }
 .party-text {
-  width: 40%;
-  padding-top: 120px;
+  width: 60%;
+  padding-top: 24px;
   padding-left: 80px;
   color: white;
 }
 .party-text h3 {
   font-size: 64px;
 }
+.btn-join {
+  background-color: Transparent;
+  border: 0;
+  color: #FFFFFF;
+}
+.party-img {
+  height: 70%;
+  width: 70%;
+}
 .gift-card {
-  margin: 0 50px;
+  margin: 0 48px;
 }
 .card-header1 {
  font-size: 24px;
@@ -87,7 +103,7 @@
 .card-img img {
   height: 300px;
   margin: 8px 0;
-  
+  border-radius: 5px;
 }
 .newsletter {
   margin: 48px;
@@ -107,7 +123,8 @@
 .btn-input {
   padding: 10px 20px;
   margin-right: 48px;
-  border: 0;
+  border: 1px solid black;
+  border-radius: 20px 0 0 20px;
 }
 .btn-subscribe {
   padding: 10px 20px;
@@ -119,6 +136,7 @@
 .footer-section {
   background-color: #070211;
   color: #FFFFFF;
+  margin: 0 48px;
 }
 .contact {
   display: flex;
