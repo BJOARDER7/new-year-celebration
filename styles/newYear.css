@@ -116,3 +116,47 @@
   background-color: #FF0000;
   color: white;
 }
+.footer-section {
+  background-color: #070211;
+  color: #FFFFFF;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px 0 24px;
+}
+.contact p {
+  color: #FFFFFF;
+}
+.footer-section hr {
+  border: 1px solid gray;
+  margin:0 24px;
+}
+.social-media {
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+.social-media p {
+  margin: 10px;
+}
+.media1, .media3 {
+  color: #0B69C7;
+}
+.media4 {
+  color: #EA1932;
+}
+.unsubscribe {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 0 24px 48px 24px;
+}
+.btn-unsubscribe {
+  background-color: #070211;
+  border: 0;
+  color: #FFFFFF;
+  
+}
